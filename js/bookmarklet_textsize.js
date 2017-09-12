@@ -32,7 +32,7 @@ function initMyBookmarklet(){
 
         //YOUR CODE GOES HERE!
 
-        javascript:void(document.body.style.color=prompt('What color would you like the text to be?'));
+        javascript:void(document.body.style.fontsize.100+"px");
 
 
     })();
