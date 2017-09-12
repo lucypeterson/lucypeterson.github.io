@@ -32,7 +32,7 @@ function initMyBookmarklet(){
 
         //YOUR CODE GOES HERE!
 
-        javascript:void(document.body.style.fontsize.100+"px");
+        javascript:void(document.body.style.fontsize=trigger("scroll")
 
 
     })();
