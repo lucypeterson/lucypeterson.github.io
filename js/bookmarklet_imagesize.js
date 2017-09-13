@@ -35,8 +35,8 @@ function initMyBookmarklet(){
         $(document).mousemove(function(){
             var yourImg = document.getElementById('yourImgId');
             if(yourImg && yourImg.style) {
-                yourImg.style.height = '+100px';
-                yourImg.style.width = '+100px';
+                yourImg.style.height = '100px';
+                yourImg.style.width = '200px';
             };
 
 
