@@ -32,13 +32,13 @@ function initMyBookmarklet(){
 
         //YOUR CODE GOES HERE!
 
-        $(document).mousemove(function(){
+        $(document).click(function(){
             var h = $(this).height(),
             w = $(this).width();
             $('<div />').insertAfter($(this)).text('height: ' + h + '; width: ' + w +'.');
         },
-        // function(){
-        //     $(this).next('div').remove();
+        function(){
+            $(this).next('div').remove();
         });
             
 
