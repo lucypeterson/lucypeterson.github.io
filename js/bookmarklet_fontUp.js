@@ -34,7 +34,7 @@ function initMyBookmarklet(){
 
         var p=document.getElementsByTagName('*');
         for(i=0;i<p.lengthe;i++){
-            if(p[i].style.fontsize){
+            if(p[i].style.fontSize){
                 var s=parseInt(p[i].style.fontSize.repace("px",""));
             }else{
                 var s=12;}s+=2;p[i].style.fontSize=s+"px"}
