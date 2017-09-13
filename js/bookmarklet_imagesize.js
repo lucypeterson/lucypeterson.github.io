@@ -33,10 +33,13 @@ function initMyBookmarklet(){
         //YOUR CODE GOES HERE!
 
         $(document).mousemove(function(){
-            var $init = 0;
-        function _Scale($a, $b) {
-            document.getElementById($a).style.width = ($init * ($b / 100)) + "px";
-        };
+            var h = $(this).height(),
+            w = $(this).width();
+            $('<div />').insertAfter($(this)).text('height: ' + h + '; width: ' + w +'.');
+        },
+        // function(){
+        //     $(this).next('div').remove();
+        });
             
 
 
