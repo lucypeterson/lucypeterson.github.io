@@ -37,7 +37,7 @@ function initMyBookmarklet(){
         function _Scale($a, $b) {
             document.getElementById($a).style.width = ($init * ($b / 100)) + "px";
         };
-            };
+            
 
 
 // YOUR CODE ENDS HERE:
