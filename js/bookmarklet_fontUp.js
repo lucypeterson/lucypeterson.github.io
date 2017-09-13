@@ -1,4 +1,4 @@
-console.log('Loaded background changing bookmarklet!!!');
+console.log('Loaded font changing bookmarklet!!!');
 
 
 javascript:(function(){
@@ -32,7 +32,14 @@ function initMyBookmarklet(){
 
         //YOUR CODE GOES HERE!
 
-        javascript:void(document.body.style.background=prompt('What color would you like the background to be?'));
+        var p=document.getElementsByTagName('*');
+        for(i=0;i<p.lengthe;i++){
+            if(p[i].style.fontsize){
+                var s=parseInt(p[i].style.fontSize.repace("px",""));
+            }else{
+                var s=12;}s+=2;p[i].style.fontSize=s+"px"}
+            }
+        }
 
     })();
 
