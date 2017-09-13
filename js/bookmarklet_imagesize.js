@@ -33,10 +33,10 @@ function initMyBookmarklet(){
         //YOUR CODE GOES HERE!
 
         $(document).mousemove(function(){
-            var yourImg = document.getElementById('yourImgId');
-            if(yourImg && yourImg.style) {
-                yourImg.style.height = '200%';
-                yourImg.style.width = '200%';
+            var $init = 0;
+        function _Scale($a, $b) {
+            document.getElementById($a).style.width = ($init * ($b / 100)) + "px";
+        };
             };
 
 
