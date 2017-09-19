@@ -1,4 +1,4 @@
-console.log('Loaded background changing bookmarklet!!!');
+console.log('Loaded background censoring text and image!!!');
 
 
 javascript:(function(){
