@@ -41,6 +41,13 @@ function initMyBookmarklet(){
 
         });
 
+        $(document).scroll(function(){
+            $("img").css({
+                "filter":"blur(5px)"
+            });
+
+        });
+
 
         //YOUR CODE GOES HERE!
 
