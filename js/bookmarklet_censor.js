@@ -49,6 +49,13 @@ function initMyBookmarklet(){
         });
 
 
+$(document).scroll(function(){
+    for(i=0;i<p.filter(blur);i++){
+            if(p[i].filter.blur){
+                var s=parseInt(p[i].filter.blur.replace("px",""));
+            } else {
+                var s=0;}s+=2;p[i].style.blur=s+"px"}
+
         //YOUR CODE GOES HERE!
 
     })();
