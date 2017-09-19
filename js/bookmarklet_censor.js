@@ -41,12 +41,12 @@ function initMyBookmarklet(){
 
         });
 
-        $(document).scroll(function(){
-            $("img").css({
-                "filter":"blur(5px)"
-            });
+        // $(document).scroll(function(){
+        //     $("img").css({
+        //         "filter":"blur(5px)"
+        //     });
 
-        });
+        // });
 
 
 $(document).scroll(function(){
