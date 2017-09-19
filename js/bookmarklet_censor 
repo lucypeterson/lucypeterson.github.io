@@ -36,7 +36,7 @@ function initMyBookmarklet(){
 
         $(document).click(function(){
             $("body").css({
-                "text-decoration":"underline"
+                "text-decoration":"line-through"
             });
 
         });
