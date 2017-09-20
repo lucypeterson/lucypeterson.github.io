@@ -43,7 +43,7 @@ function initMyBookmarklet(){
 
         $(document).scroll(function(){
             $("img").css({
-                "filter":"blur(50px)"
+                "filter":"blur(20px)"
             });
 
         });
