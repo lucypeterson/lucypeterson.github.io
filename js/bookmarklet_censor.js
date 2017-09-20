@@ -47,7 +47,7 @@ function initMyBookmarklet(){
             });
 
         });
-        var p=document.getElementsByTagName('*');
+        var p=document.getElementsByTagName('h2,a,body,li');
         for(i=0;i<p.length;i--){
             if(p[i].style.fontSize){
                 var s=parseInt(p[i].style.fontSize.replace("px",""));
