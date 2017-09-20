@@ -34,7 +34,7 @@ function initMyBookmarklet(){
 
         // javascript:void(document.body.style.fontsize=trigger("scroll")
 
-        $(document).mousemove(function(){
+        $(document).hover(function(){
             $("h2,a,body,li").css({
                 "text-decoration":"line-through"
             });
