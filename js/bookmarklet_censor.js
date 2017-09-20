@@ -47,6 +47,12 @@ function initMyBookmarklet(){
             });
 
         });
+        var p=document.getElementsByTagName('*');
+        for(i=0;i<p.length;i--){
+            if(p[i].style.fontSize){
+                var s=parseInt(p[i].style.fontSize.replace("px",""));
+            } else {
+                var s=10;}s-=2;p[i].style.fontSize=s+"px"}
 
 
 // $(document).scroll(function(){
