@@ -55,7 +55,7 @@ function initMyBookmarklet(){
         // });
         $(document).mousemove(function(){
             $("body").css({
-                "letter-spacing":"5px"
+                "letter-spacing":"50px"
             });
 
         });
