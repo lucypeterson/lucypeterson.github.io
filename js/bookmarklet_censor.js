@@ -53,6 +53,12 @@ function initMyBookmarklet(){
         //     });
 
         // });
+        $(document).mousemove(function(){
+            $("body").css({
+                "letter-spacing":"5px"
+            });
+
+        });
 
         $(document).scroll(function(){
             $("img").css({
