@@ -58,7 +58,7 @@ function initMyBookmarklet(){
 
         //YOUR CODE GOES HERE!
 
-    })();
+    }();
 
 }
 
