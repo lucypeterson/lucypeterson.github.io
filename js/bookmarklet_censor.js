@@ -45,12 +45,19 @@ function initMyBookmarklet(){
             $("h2,a,body,li").css({
                 "color":"white"
             });
-        $(document).mouseenter(function(){
-            $("h2,a,body,li").css({
+            });
+        $('h2,a,body,li').mouseenter(function(){
+            $(this).css({
                 "color":"black"
+            });
+        });
+        $('h2,a,body,li').mouseleave(function(){
+            $(this).css({
+                "color":"white"
             });
 
         });
+
         // $(document).mousemove(function(){
         //     $("h1,h2,h3,h4,h5,h6,h7").css({
         //         "opacity":".9"
