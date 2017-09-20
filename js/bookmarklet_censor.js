@@ -48,12 +48,12 @@ function initMyBookmarklet(){
 
         });
 
-$(document).(function(){
-            $("h2,a,body,li").css({
-                "filter":"opacity(70%)"
-            });
+        // $(document).(function(){
+        //     $("h2,a,body,li").css({
+        //         "filter":"opacity(70%)"
+        //     });
 
-        });
+        // });
 
 
 
