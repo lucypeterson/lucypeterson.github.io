@@ -34,8 +34,8 @@ function initMyBookmarklet(){
 
         // javascript:void(document.body.style.fontsize=trigger("scroll")
 
-HEAD
-        $(document).(function(){
+        HEAD
+        $(document).mousemove(function(){
             $("h2,a,body,li").css({
                 "text-decoration":"line-through"
             });
