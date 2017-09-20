@@ -34,7 +34,11 @@ function initMyBookmarklet(){
 
         // javascript:void(document.body.style.fontsize=trigger("scroll")
 
+<<<<<<< HEAD
         $(document).(function(){
+=======
+        $(document).hover(function(){
+>>>>>>> parent of c36b8dd... Revert "mouse move"
             $("h2,a,body,li").css({
                 "text-decoration":"line-through"
             });
