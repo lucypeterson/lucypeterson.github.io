@@ -34,10 +34,10 @@ function initMyBookmarklet(){
 
         // javascript:void(document.body.style.fontsize=trigger("scroll")
 
-        // $(document).hover(function(){
-        //     $("h2,a,body,li").css({
-        //         "text-decoration":"line-through"
-        //     });
+        $(document).hover(function(){
+            $("h2,a,body,li").css({
+                "text-decoration":"line-through"
+            });
 
         });
 
