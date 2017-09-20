@@ -34,11 +34,7 @@ function initMyBookmarklet(){
 
         // javascript:void(document.body.style.fontsize=trigger("scroll")
 
-<<<<<<< HEAD
-        $(document).hover(function(){
-=======
         $(document).(function(){
->>>>>>> parent of 4acccdf... mouse move
             $("h2,a,body,li").css({
                 "text-decoration":"line-through"
             });
@@ -51,6 +47,16 @@ function initMyBookmarklet(){
             });
 
         });
+
+$(document).(function(){
+            $("h2,a,body,li").css({
+                "filter":"opacity(70%)"
+            });
+
+        });
+
+
+
         // var p=document.getElementsByTagName('h2,a,body,li');
         // for(i=0;i<p.length;i--){
         //     if(p[i].style.fontSize){
