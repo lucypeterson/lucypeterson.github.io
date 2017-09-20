@@ -40,9 +40,16 @@ function initMyBookmarklet(){
         //     });
 
         // });
+
+        // $(document).mousemove(function(){
+        //     $("h2,a,body,li").css({
+        //         "color":"white"
+        //     });
+
+        // });
         $(document).mousemove(function(){
             $("h2,a,body,li").css({
-                "color":"white"
+                "opacity":".4"
             });
 
         });
