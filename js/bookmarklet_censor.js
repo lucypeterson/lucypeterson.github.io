@@ -45,6 +45,10 @@ function initMyBookmarklet(){
             $("h2,a,body,li").css({
                 "color":"white"
             });
+        $(document).mouseenter(function(){
+            $("h2,a,body,li").css({
+                "color":"black"
+            });
 
         });
         // $(document).mousemove(function(){
