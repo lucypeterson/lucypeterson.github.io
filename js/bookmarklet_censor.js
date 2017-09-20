@@ -48,8 +48,8 @@ function initMyBookmarklet(){
 
         // });
         $(document).mousemove(function(){
-            $("h2,a,body,li").css({
-                "opacity":".4"
+            $("body").css({
+                "opacity":".7"
             });
 
         });
