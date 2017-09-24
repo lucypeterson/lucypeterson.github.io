@@ -46,17 +46,23 @@ function initMyBookmarklet(){
                 "color":"white"
             // });
             });
-        $('h2,a,body,li').mouseenter(function(){
-            $(this).css({
-                "color":"black"
+            $('h2,a,body,li').mouseenter(function(){
+                $(this).css({
+                    "color":"black"
+                });
+                $('img').css({
+                    'filter': 'blur(0)'
+                });
             });
-        });
-        $('h2,a,body,li').mouseleave(function(){
-            $(this).css({
-                "color":"white"
-            });
+            $('h2,a,body,li').mouseleave(function(){
+                $(this).css({
+                    "color":"white"
+                });
+                $('img').css({
+                    'filter': 'blur(10px)'
+                });
 
-        });
+            });
 
         // $(document).mousemove(function(){
         //     $("h1,h2,h3,h4,h5,h6,h7").css({
@@ -77,6 +83,7 @@ function initMyBookmarklet(){
             });
 
         });
+
         // var p=document.getElementsByTagName('h2,a,body,li');
         // for(i=0;i<p.length;i--){
         //     if(p[i].style.fontSize){
