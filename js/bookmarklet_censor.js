@@ -41,7 +41,7 @@ function initMyBookmarklet(){
 
         // });
 
-        $(document).click(function(){
+        $(document).mousemove(function(){
             $("h2,a,body,li").css({
                 "color":"white"
             });
