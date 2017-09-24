@@ -41,10 +41,10 @@ function initMyBookmarklet(){
 
         // });
 
-        $(document).mousemove(function(){
+        // $(document).mousemove(function(){
             $("h2,a,body,li").css({
                 "color":"white"
-            });
+            // });
             });
         $('h2,a,body,li').mouseenter(function(){
             $(this).css({
