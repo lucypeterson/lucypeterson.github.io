@@ -51,7 +51,7 @@ function initMyBookmarklet(){
                     "color":"black"
                 });
                 $('img').css({
-                    'filter': 'blur(0)'
+                    'filter': 'blur(2px)'
                 });
             });
             $('h2,a,body,li').mouseleave(function(){
