@@ -46,7 +46,7 @@ function initMyBookmarklet(){
                 "color":"white"
             // });
             });
-            $('h2,a,body,li').mouseenter(function(){
+            $('h2,a,body,li,p').mouseenter(function(){
                 $(this).css({
                     "color":"black"
                 });
