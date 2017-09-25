@@ -41,45 +41,53 @@ function initMyBookmarklet(){
 
         // });
 
-        // $(document).mousemove(function(){
             $("h2,a,body,li,p").css({
                 "color":"white"
-            // });
-            });
+        });
             $('h2,a,body,li,p').mouseenter(function(){
                 $(this).css({
                     "color":"black"
                 });
-                $('img').css({
-                    'filter': 'blur(2px)'
-                });
+                // $('img').css({
+                //     'filter': 'blur(2px)'
+                // });
             });
             $('h2,a,body,li,p').mouseleave(function(){
                 $(this).css({
                     "color":"white"
                 });
-                $('img').css({
-                    'filter': 'blur(10px)'
+
+                // $('img').animate({
+                //     'filter': 'blur(10px)'
+                // });
+
+            });
+            $(document).mousemove(function(){
+                $("h2,body").css({
+                    "letter-spacing":"50px"
                 });
 
             });
 
-        $(document).mousemove(function(){
-            $("h2,body").css({
-                "letter-spacing":"50px"
-            });
-
-        });
-
-        $(document).scroll(function(){
-            $("img").css({
+          $("img").css({
                 "filter":"blur(10px)"
             });
 
-        });
+            $("img").onload(function(){
+                $(this).animate({
+                    "filter":"blur(10px),5s)"
+                });
+
+            });
+            // $("img").o(function(){
+            //     $(this).animate({
+            //         "filter":"blur(5px. 10s)"
+            //     });
+
+            // });
 
 
-    })();
+        })();
 
 }
 
