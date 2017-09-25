@@ -72,7 +72,7 @@ function initMyBookmarklet(){
         // });
         $(document).mousemove(function(){
             $("h2,body").css({
-                "letter-spacing":"50px"
+                "word-spacing":"50px"
             });
 
         });
