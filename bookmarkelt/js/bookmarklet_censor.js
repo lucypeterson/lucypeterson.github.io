@@ -54,7 +54,7 @@ function initMyBookmarklet(){
                     'filter': 'blur(2px)'
                 });
             });
-            $('h2,a,body,li').mouseleave(function(){
+            $('h2,a,body,li,p').mouseleave(function(){
                 $(this).css({
                     "color":"white"
                 });
