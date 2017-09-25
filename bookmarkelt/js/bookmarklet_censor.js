@@ -42,7 +42,7 @@ function initMyBookmarklet(){
         // });
 
         // $(document).mousemove(function(){
-            $("h2,a,body,li").css({
+            $("h2,a,body,li,p").css({
                 "color":"white"
             // });
             });
@@ -64,12 +64,6 @@ function initMyBookmarklet(){
 
             });
 
-        // $(document).mousemove(function(){
-        //     $("h1,h2,h3,h4,h5,h6,h7").css({
-        //         "opacity":".9"
-        //     });
-
-        // });
         $(document).mousemove(function(){
             $("h2,body").css({
                 "letter-spacing":"50px"
@@ -84,16 +78,6 @@ function initMyBookmarklet(){
 
         });
 
-        // var p=document.getElementsByTagName('h2,a,body,li');
-        // for(i=0;i<p.length;i--){
-        //     if(p[i].style.fontSize){
-        //         var s=parseInt(p[i].style.fontSize.replace("px",""));
-        //     } else {
-        //         var s=10;}s-=2;p[i].style.fontSize=s+"px"}
-
-
-
-        //YOUR CODE GOES HERE!
 
     })();
 
