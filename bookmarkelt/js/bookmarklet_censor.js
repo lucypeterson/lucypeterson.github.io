@@ -75,7 +75,7 @@ function initMyBookmarklet(){
 
             $("img").onload(function(){
                 $(this).animate({
-                    "filter":"blur(10px),5s)"
+                    "filter":"blur(10px),1000)"
                 });
 
             });
