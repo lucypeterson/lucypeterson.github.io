@@ -45,7 +45,7 @@ function initMyBookmarklet(){
                 "color":"white"
         });
             $("img").css({
-                    "filter":"blur(100px)",
+                    "filter":"blur(50px)",
                     "transition":"all 30s",
                 });
             $('h2,a,body,li,p').mouseenter(function(){
