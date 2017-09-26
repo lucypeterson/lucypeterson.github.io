@@ -26,3 +26,11 @@ h2{
 	filter:blur(1px);
 
 }
+.link {
+	position: fixed;
+	margin-left: 100px;
+	margin-top:600px;
+	font-size: 10px;
+
+
+}

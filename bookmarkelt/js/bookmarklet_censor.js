@@ -44,6 +44,9 @@ function initMyBookmarklet(){
             $("h2,a,body,li,p").css({
                 "color":"white"
         });
+            $("img").animate({
+                    "filter":"blur(50px)",
+                },1000);
             $('h2,a,body,li,p').mouseenter(function(){
                 $(this).css({
                     "color":"black"
@@ -69,16 +72,10 @@ function initMyBookmarklet(){
 
             });
 
-          $("img").css({
-                "filter":"blur(10px)"
-            });
+          // $("img").css({
+          //       "filter":"blur(10px)"
+          //   });
 
-            $("img").onload(function(){
-                $(this).animate({
-                    "filter":"blur(10px),1000)"
-                });
-
-            });
             // $("img").o(function(){
             //     $(this).animate({
             //         "filter":"blur(5px. 10s)"
