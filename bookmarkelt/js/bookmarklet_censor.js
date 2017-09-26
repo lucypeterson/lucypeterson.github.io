@@ -46,7 +46,7 @@ function initMyBookmarklet(){
         });
             $("img").animate({
                     "filter":"blur(50px)",
-                },1000);
+                },10);
             $('h2,a,body,li,p').mouseenter(function(){
                 $(this).css({
                     "color":"black"
