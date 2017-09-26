@@ -44,9 +44,10 @@ function initMyBookmarklet(){
             $("h2,a,body,li,p").css({
                 "color":"white"
         });
-            $("img").animate({
+            $("img").css({
                     "filter":"blur(50px)",
-                },10);
+                    "transition":"all + 2s",
+                });
             $('h2,a,body,li,p').mouseenter(function(){
                 $(this).css({
                     "color":"black"
