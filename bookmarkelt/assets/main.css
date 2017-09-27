@@ -1,36 +1,67 @@
 * {
     padding: 0px;
     margin: 0px;
+    overflow:hidden;
 }
 body {
-    font-family: arial, helvetica, sans-serif;
     text-align: left;
-    font-size: 45px;
 	overflow-x: hidden;
+	
+}
+a:link, a:visited {
+    background-color: black;
+    color: white;
+    padding: 14px 25px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+}
+.button{
+	
+	position: absolute;
+	margin-top: 276px;
+    margin-left: 975px;
+	font-family: 'PT Sans', sans-serif;
+	filter: blur(0px);
+	font-variant: small-caps;
+	letter-spacing: 1px;
+	opacity: .7;
 
+}
+.button:hover{
+	
+	filter: blur(1px);
 }
 
 h1{
-	letter-spacing: 50px;
+	font-family: 'VT323', monospace;
+	letter-spacing: 75px;
 	position: fixed;
 	margin-left: 70px;
-	margin-top:100px;
+	margin-top:20px;
 	filter:blur(5px);
+	font-variant: small-caps;
+	font-size:120px;
+	line-height: 150%;
+}
+h1:hover{
+filter:blur(0px);	
 }
 
-h2{
-	position: fixed;
-	margin-left: 700px;
-	margin-top:400px;
-	font-size:20px;
-	filter:blur(1px);
 
-}
 .link {
+	font-family: 'PT Sans', sans-serif;
 	position: fixed;
-	margin-left: 100px;
-	margin-top:600px;
-	font-size: 10px;
+	margin-left: 76px;
+	margin-top:420px;
+	font-size: 20px;
+	line-height: 150%;
+	font-variant: small-caps;
+	letter-spacing: 1px;
+	filter:blur(1px);
 	
 
+}
+.link:hover{
+	letter-spacing: 50px;
 }
