@@ -57,7 +57,7 @@ function initMyBookmarklet(){
             },60000);
             }, 10000);
              $("img").css({
-                    "filter":"blur(50px)",
+                    "filter":"blur(60px)",
                     "transition":"all 5s"
                 });
             setTimeout(function(){
@@ -65,7 +65,7 @@ function initMyBookmarklet(){
                     "filter":"blur(0px)",
                     "transition":"all 5s"
                 });
-            },5000);
+            },60000);
 
             $('h2,a,body,li,p').mouseenter(function(){
                 $(this).css({
