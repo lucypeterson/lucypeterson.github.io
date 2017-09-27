@@ -52,8 +52,8 @@ function initMyBookmarklet(){
                 $("img").css({
                     "filter":"blur(0px)",
                     "transition":"all 5s"
-                })}
-            })
+                })};
+            },5000)
 
             $("img").css({
                     "filter":"blur(0px)",
