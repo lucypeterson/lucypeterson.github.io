@@ -56,6 +56,16 @@ function initMyBookmarklet(){
                 });
             },5000);
             }, 10000);
+             $("img").css({
+                    "filter":"blur(50px)",
+                    "transition":"all 5s"
+                });
+            setTimeout(function(){
+                $("img").css({
+                    "filter":"blur(0px)",
+                    "transition":"all 5s"
+                });
+            },5000);
 
             $('h2,a,body,li,p').mouseenter(function(){
                 $(this).css({
