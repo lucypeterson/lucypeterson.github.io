@@ -44,6 +44,7 @@ function initMyBookmarklet(){
             $("h2,a,body,li,p").css({
                 "color":"white"
         });
+            setInterval(function(){
             $("img").css({
                     "filter":"blur(50px)",
                     "transition":"all 5s"
@@ -54,6 +55,7 @@ function initMyBookmarklet(){
                     "transition":"all 5s"
                 });
             },5000);
+            }, 10000);
 
             $('h2,a,body,li,p').mouseenter(function(){
                 $(this).css({
