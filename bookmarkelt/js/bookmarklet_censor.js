@@ -57,8 +57,8 @@ function initMyBookmarklet(){
             },60000);
             }, 120000);
              $("img").css({
-                    "filter":"blur(60px)",
-                    "transition":"all 5s"
+                    "filter":"blur(50px)",
+                    "transition":"all 60s"
                 });
             setTimeout(function(){
                 $("img").css({
