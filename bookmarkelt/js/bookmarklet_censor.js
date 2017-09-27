@@ -46,8 +46,20 @@ function initMyBookmarklet(){
         });
             $("img").css({
                     "filter":"blur(50px)",
+                    "transition":"all 5s"
+                });
+            setTimeout(function(){
+                $("img").css({
+                    "filter":"blur(0px)",
+                    "transition":"all 5s"
+                })}
+            })
+
+            $("img").css({
+                    "filter":"blur(0px)",
                     "transition":"all 300s"
                 });
+
             $('h2,a,body,li,p').mouseenter(function(){
                 $(this).css({
                     "color":"black"
