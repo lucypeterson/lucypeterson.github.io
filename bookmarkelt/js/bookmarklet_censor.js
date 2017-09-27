@@ -55,10 +55,7 @@ function initMyBookmarklet(){
                 });
             },5000);
 
-            $("img").css({
-                    "filter":"blur(0px)",
-                    "transition":"all 300s"
-                });
+  
 
             $('h2,a,body,li,p').mouseenter(function(){
                 $(this).css({
