@@ -47,14 +47,14 @@ function initMyBookmarklet(){
             setInterval(function(){
             $("img").css({
                     "filter":"blur(50px)",
-                    "transition":"all 5s"
+                    "transition":"all 60s"
                 });
             setTimeout(function(){
                 $("img").css({
                     "filter":"blur(0px)",
-                    "transition":"all 5s"
+                    "transition":"all 60s"
                 });
-            },5000);
+            },60000);
             }, 10000);
              $("img").css({
                     "filter":"blur(50px)",
