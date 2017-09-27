@@ -63,7 +63,7 @@ function initMyBookmarklet(){
             setTimeout(function(){
                 $("img").css({
                     "filter":"blur(0px)",
-                    "transition":"all 5s"
+                    "transition":"all 60s"
                 });
             },60000);
 
