@@ -55,7 +55,7 @@ function initMyBookmarklet(){
                     "transition":"all 60s"
                 });
             },60000);
-            }, 10000);
+            }, 120000);
              $("img").css({
                     "filter":"blur(60px)",
                     "transition":"all 5s"
