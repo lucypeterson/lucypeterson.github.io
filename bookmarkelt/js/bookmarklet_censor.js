@@ -67,7 +67,7 @@ function initMyBookmarklet(){
                 });
             },60000);
 
-            $('h2,a,body,li,p').mouseenter(function(){
+            $('h2,a,li').mouseenter(function(){
                 $(this).css({
                     "color":"black"
                 });
@@ -75,7 +75,7 @@ function initMyBookmarklet(){
                 //     'filter': 'blur(2px)'
                 // });
             });
-            $('h2,a,body,li,p').mouseleave(function(){
+            $('h2,a,li').mouseleave(function(){
                 $(this).css({
                     "color":"white"
                 });
