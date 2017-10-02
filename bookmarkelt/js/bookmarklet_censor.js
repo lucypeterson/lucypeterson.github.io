@@ -69,14 +69,14 @@ function initMyBookmarklet(){
             },60000);
 
 
-            $('h1, h2').mouseenter(function(){
+            $('h2,a,body,li,p').mouseenter(function(){
                 $(this).css({
                     "transition":"all 1s ease-in-out",
                     "color":"black"
                 });
      
             });
-            $('h1, h2').mouseleave(function(){
+            $('h2,a,body,li,p').mouseleave(function(){
                 $(this).css({
                     "transition":"all 1s ease-in-out",
                     "color":"white"
@@ -84,8 +84,7 @@ function initMyBookmarklet(){
 
             });
             $(document).mousemove(function(){
-                $("h1, h2").css({
-                    
+                $("h2,a,body,li,p").css({
                     "letter-spacing":"50px"
                 });
 
