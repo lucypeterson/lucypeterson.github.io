@@ -85,7 +85,7 @@ function initMyBookmarklet(){
             });
             $(document).mousemove(function(){
                 $("h1, h2").css({
-                    "transition":"all 1s ease-in-out",
+                    
                     "letter-spacing":"50px"
                 });
 
