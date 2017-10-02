@@ -44,6 +44,7 @@ function initMyBookmarklet(){
             $("h2,a,body,li,p").css({
                 "color":"white"
         });
+
             setInterval(function(){
             $("img").css({
                     "filter":"blur(50px)",
@@ -67,7 +68,8 @@ function initMyBookmarklet(){
                 });
             },60000);
 
-            $('h2,a,li').mouseenter(function(){
+
+            $('h1, h2').mouseenter(function(){
                 $(this).css({
                     "color":"black"
                 });
@@ -75,7 +77,7 @@ function initMyBookmarklet(){
                 //     'filter': 'blur(2px)'
                 // });
             });
-            $('h2,a,li').mouseleave(function(){
+            $('h1, h2').mouseleave(function(){
                 $(this).css({
                     "color":"white"
                 });
@@ -86,7 +88,7 @@ function initMyBookmarklet(){
 
             });
             $(document).mousemove(function(){
-                $("h2,body").css({
+                $("h1, h2").css({
                     "letter-spacing":"50px"
                 });
 
