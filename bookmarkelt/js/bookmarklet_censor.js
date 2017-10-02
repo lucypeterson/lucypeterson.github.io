@@ -71,40 +71,27 @@ function initMyBookmarklet(){
 
             $('h1, h2').mouseenter(function(){
                 $(this).css({
+                    "transition":"all 1s ease-in-out"
                     "color":"black"
                 });
-                // $('img').css({
-                //     'filter': 'blur(2px)'
-                // });
+     
             });
             $('h1, h2').mouseleave(function(){
                 $(this).css({
+                    "transition":"all 1s ease-in-out"
                     "color":"white"
                 });
-
-                // $('img').animate({
-                //     'filter': 'blur(10px)'
-                // });
 
             });
             $(document).mousemove(function(){
                 $("h1, h2").css({
+                    "transition":"all 1s ease-in-out"
                     "letter-spacing":"50px"
                 });
 
             });
 
-          // $("img").css({
-          //       "filter":"blur(10px)"
-          //   });
-
-            // $("img").o(function(){
-            //     $(this).animate({
-            //         "filter":"blur(5px. 10s)"
-            //     });
-
-            // });
-
+   
 
         })();
 
