@@ -71,21 +71,21 @@ function initMyBookmarklet(){
 
             $('h1, h2').mouseenter(function(){
                 $(this).css({
-                    "transition":"all 1s ease-in-out"
+                    "transition":"all 1s ease-in-out",
                     "color":"black"
                 });
      
             });
             $('h1, h2').mouseleave(function(){
                 $(this).css({
-                    "transition":"all 1s ease-in-out"
+                    "transition":"all 1s ease-in-out",
                     "color":"white"
                 });
 
             });
             $(document).mousemove(function(){
                 $("h1, h2").css({
-                    "transition":"all 1s ease-in-out"
+                    "transition":"all 1s ease-in-out",
                     "letter-spacing":"50px"
                 });
 
