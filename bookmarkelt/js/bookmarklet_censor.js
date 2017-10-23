@@ -1,99 +1,93 @@
 console.log('Loaded background censoring text and image!!!');
 
 
-javascript:(function(){
+javascript: (function() {
 
 
-var v ="2.2.4"; // version of jquery we want to use
+    var v = "2.2.4"; // version of jquery we want to use
 
-if (window.jQuery== undefined || window.jQuery.fn.jquery < v){
+    if (window.jQuery == undefined || window.jQuery.fn.jquery < v) {
 
-    var done = false;
-    var script = document.createElement("script");
-    script.src="https://ajax.googleapis.com/ajax/libs/jquery/" + v + "/jquery.min.js"; // load version of jQuery we specify
-    script.onload = script.onreadystatechange = function(){
+        var done = false;
+        var script = document.createElement("script");
+        script.src = "https://ajax.googleapis.com/ajax/libs/jquery/" + v + "/jquery.min.js"; // load version of jQuery we specify
+        script.onload = script.onreadystatechange = function() {
 
-        if (!done && (!this.readyState || this.readyState=="loaded" || this.readyState =="complete")){
+            if (!done && (!this.readyState || this.readyState == "loaded" || this.readyState == "complete")) {
 
-        done = true;
-        initMyBookmarklet(); //If jquery is loaded now run my script
+                done = true;
+                initMyBookmarklet(); //If jquery is loaded now run my script
 
-        }
-    };
-document.getElementsByTagName("head")[0].appendChild(script);
+            }
+        };
+        document.getElementsByTagName("head")[0].appendChild(script);
 
 
-}else{
-    initMyBookmarklet();
-}
+    } else {
+        initMyBookmarklet();
+    }
 
-function initMyBookmarklet(){
-    (window.myBookmarklet = function (){
+    function initMyBookmarklet() {
+        (window.myBookmarklet = function() {
 
-        //YOUR CODE GOES HERE!
+            //YOUR CODE GOES HERE!
 
-        // javascript:void(document.body.style.fontsize=trigger("scroll")
+            // javascript:void(document.body.style.fontsize=trigger("scroll")
 
-        // $(document).mousemove(function(){
-        //     $("h2,a,body,li").css({
-        //         "text-decoration":"line-through"
-        //     });
+            // $(document).mousemove(function(){
+            //     $("h2,a,body,li").css({
+            //         "text-decoration":"line-through"
+            //     });
 
-        // });
+            // });
 
             $("h2,a,body,li,p").css({
-                "color":"white"
-        });
+                "color": "white"
+            });
 
-            setInterval(function(){
-            $("img").css({
-                    "filter":"blur(50px)",
-                    "transition":"all 60s"
-                });
-            setTimeout(function(){
+            setInterval(function() {
                 $("img").css({
-                    "filter":"blur(0px)",
-                    "transition":"all 60s"
+                    "filter": "blur(50px)",
+                    "transition": "all 60s"
                 });
-            },60000);
+                setTimeout(function() {
+                    $("img").css({
+                        "filter": "blur(0px)",
+                        "transition": "all 60s"
+                    });
+                }, 60000);
             }, 120000);
-             $("img").css({
-                    "filter":"blur(50px)",
-                    "transition":"all 60s"
-                });
-            setTimeout(function(){
+            $("img").css({
+                "filter": "blur(50px)",
+                "transition": "all 60s"
+            });
+            setTimeout(function() {
                 $("img").css({
-                    "filter":"blur(0px)",
-                    "transition":"all 60s"
+                    "filter": "blur(0px)",
+                    "transition": "all 60s"
                 });
-            },60000);
+            }, 60000);
 
 
-            $('h2,a,body,li,p').mouseenter(function(){
+            $('h1,h2,h3,h4,h5,h6').mouseenter(function() {
                 $(this).css({
-                    "transition":"all 1s ease-in-out",
-                    "color":"black"
+                    "transition": "all 3s ease-in-out",
+                    "color": "black"
                 });
-     
             });
-            $('h2,a,body,li,p').mouseleave(function(){
-                $(this).css({
-                    "transition":"all 1s ease-in-out",
-                    "color":"white"
-                });
 
+            $('h1,h2,h3,h4,h5,h6').mouseleave(function() {
+                $(this).css({
+                    "transition": "all 3s ease-in-out",
+                    "color": "white"
+                });
             });
-            $(document).mousemove(function(){
+
+            $(document).mousemove(function() {
                 $("h2,a,body,li,p").css({
-                    "letter-spacing":"50px"
+                    "letter-spacing": "50px"
                 });
-
             });
-
-   
-
         })();
-
-}
-
+    }
 })();
