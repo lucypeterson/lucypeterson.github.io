@@ -70,24 +70,11 @@ javascript: (function() {
             }, 60000);
 
 
-            // $('h1,h2,h3,h4,h5,h6').mouseenter(function() {
-            //     $(this).css({
-            //         "transition": "all 3s ease-in-out",
-            //         "color": "black"
-            //     });
-            // });
-
-            // $('h1,h2,h3,h4,h5,h6').mouseleave(function() {
-            //     $(this).css({
-            //         "transition": "all 3s ease-in-out",
-            //         "color": "white"
-            //     });
-            // });
             var style = document.createElement('style')
             style.innerHTML = `
             h1, h2, h3, h4, h5, h6,
             h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-                transition: all 3s ease-in-out
+                transition: all 6s ease-in-out
             }
             h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover,
             h1:hover a, h2:hover a, h3:hover a, h4:hover a, h5:hover a, h6:hover a {
