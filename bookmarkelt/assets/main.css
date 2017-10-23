@@ -31,6 +31,7 @@ a:link, a:visited {
 .button:hover{
 	
 	filter: blur(1px);
+	transition: all 3s ease-in-out
 }
 
 h1{
@@ -45,7 +46,8 @@ h1{
 	line-height: 150%;
 }
 h1:hover{
-filter:blur(0px);	
+filter:blur(0px);
+transition: all 3s ease-in-out	
 }
 
 
@@ -64,4 +66,5 @@ filter:blur(0px);
 }
 .link:hover{
 	letter-spacing: 50px;
+	transition: all 3s ease-in-out
 }
